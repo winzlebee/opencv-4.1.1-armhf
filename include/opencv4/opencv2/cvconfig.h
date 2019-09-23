@@ -60,10 +60,10 @@
 /* #undef HAVE_GDAL */
 
 /* GTK+ 2.0 Thread support */
-/* #undef HAVE_GTHREAD */
+#define HAVE_GTHREAD
 
 /* GTK+ 2.x toolkit */
-/* #undef HAVE_GTK */
+#define HAVE_GTK
 
 /* Halide support */
 /* #undef HAVE_HALIDE */
@@ -72,7 +72,7 @@
 /* #undef HAVE_VULKAN */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#define HAVE_INTTYPES_H 1
+/* #undef HAVE_INTTYPES_H */
 
 /* Intel Integrated Performance Primitives */
 /* #undef HAVE_IPP */
@@ -87,7 +87,7 @@
 #define HAVE_JPEG
 
 /* libpng/png.h needs to be included */
-/* #undef HAVE_LIBPNG_PNG_H */
+#define HAVE_LIBPNG_PNG_H
 
 /* GDCM DICOM codec */
 /* #undef HAVE_GDCM */
@@ -107,7 +107,7 @@
 /* #undef HAVE_OPENCL_D3D11_NV */
 
 /* OpenEXR codec */
-/* #undef HAVE_OPENEXR */
+#define HAVE_OPENEXR
 
 /* OpenGL support*/
 /* #undef HAVE_OPENGL */
